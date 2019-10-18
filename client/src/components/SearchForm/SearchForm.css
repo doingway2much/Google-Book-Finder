@@ -1,0 +1,7 @@
+#searchContainer, #resultsContainer {
+    color: white;
+    background-color: grey;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 3vw;
+}
