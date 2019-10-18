@@ -1,5 +1,5 @@
 import React from "react";
-import BookResult from "../BookResult/BookResult";
+import BookResult from "../BookResult";
 import "./ResultsContainer";
 
 function ResultsContainer(props) {
