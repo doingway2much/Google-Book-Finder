@@ -5,9 +5,8 @@ import  "./Nav.css";
 function Nav() {
     return(
         <nav>
-            <h2>Google Books</h2>
-            <Link className="btn btn-secondary btn-lg" to="/">Search</Link>
-            <Link className="btn btn-secondary btn-lg" to="/saved">Saved</Link>
+            <Link className="btn btn-secondary btn-lg" to="/">Search for Books</Link>
+            <Link className="btn btn-secondary btn-lg" to="/saved">View Saved Books</Link>
         </nav>
     );
 }

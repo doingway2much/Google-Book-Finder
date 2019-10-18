@@ -1,7 +1,30 @@
 #searchContainer, #resultsContainer {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #999, 0 4px 6px #999;
     color: white;
-    background-color: grey;
+    background-color: #DCDCDC;
     padding: 2vw;
     margin: 2vw;
     font-size: 3vw;
 }
+
+form button {
+    position: absolute;
+    right: 0;
+  }
+  form {
+    padding: 1rem 0 1.5rem;
+    position: relative;
+  }
+  
+  label {
+    font-size: 1.25rem;
+    color: black;
+  }
+  
+  input {
+    margin: 1vw 0;
+    width: 98%;
+    padding: .75vw;
+    font-size: 1.25vw;
+  }
