@@ -3,17 +3,18 @@
     box-shadow: 0 4px 6px #999, 0 4px 6px #999;
     color: white;
     background-color: #DCDCDC;
-    padding: 2vw;
-    margin: 2vw;
+    padding: 40px;
+    padding-bottom: 50px;
+    margin: 20px;
     font-size: 3vw;
 }
 
 form button {
     position: absolute;
-    right: 0;
+    left: 0;
   }
   form {
-    padding: 1rem 0 1.5rem;
+    padding: 0px 0 10px;
     position: relative;
   }
   

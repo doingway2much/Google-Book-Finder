@@ -1,6 +1,6 @@
 import React from "react";
 import SearchForm from "../components/SearchForm/";
-import ResultsContainer from "../components/ResultsContainer/";
+import Wrapper from "../components/Wrapper";
 import API from "../utils/API";
 
 class Search extends React.Component {
@@ -35,7 +35,7 @@ class Search extends React.Component {
             <main>
                 <SearchForm handleChange={this.handleChange} handleSearchClick={this.handleSearchClick} />
                 {(this.state.bookData.length > 0)?
-                    <ResultsContainer bookData={this.state.bookData} path={this.props.match.path}/> : null
+                    <Wrapper bookData={this.state.bookData} path={this.props.match.path}/> : null
                 }
             </main>
         );

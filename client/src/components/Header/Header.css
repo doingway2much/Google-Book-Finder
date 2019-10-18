@@ -1,21 +1,28 @@
 .header {
       background-image: url("../../images/books.jpg");
       max-width: 100vw;
-      height: 350px;
+      height: 250px;
       background-size: cover;
       position: relative;
+      font-family: 'Roboto', sans-serif;
+      opacity: 0.8;
   }
-  h1 {
-    padding-top: -100px;
+  
+
+  .header h1 {
+    padding-top: 15px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 4px 4px black;
   }
 
-  header h1 {
+  .header h1 {
     font-size: 7vw;
     text-align: center;
     color: white;
     text-shadow: 5px 5px 30px black;
   }
-  header p {
+  .header p {
+    padding-left: 115px;
     font-size: 3vw;
     text-align: center;
     color: white;
