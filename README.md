@@ -6,7 +6,7 @@ This is a full stack M.E.R.N application create in my Georgia Tech Coding bootca
 
 
 [Live DEMO hosted on Heroku](https://react-google-book-app.herokuapp.com/ "Live DEMO")  
-![GBF Image](https://github.com/doingway2much/unit-4-game/blob/master/assets/img/GBF.jpg?raw=true)
+![GBF Image](https://doingway2much.github.io/Bootstrap-Portfolio/assets/img/GBF.jpg?raw=true)
 
 
 Technologies:
